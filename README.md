@@ -43,7 +43,8 @@ Click on the platform you use:
 | Platform | Status | Install |
 |----------|--------|---------|
 | Claude.ai | ✅ Available | [Install Script](scripts/claude/auto-incognito.user.js) |
-| ChatGPT | 🚧 Coming Soon | - |
+| ChatGPT | ✅ Available | [Install Script](scripts/chatgpt/auto-incognito.user.js) |
+| Grok | ✅ Available | [Install Script](scripts/grok/auto-incognito.user.js) |
 | Google Gemini | 🚧 Coming Soon | - |
 | Perplexity | 🚧 Coming Soon | - |
 
@@ -94,7 +95,9 @@ chatbot-incognito/
 │   ├── claude/
 │   │   └── auto-incognito.user.js
 │   ├── chatgpt/
-│   │   └── auto-incognito.user.js (coming soon)
+│   │   └── auto-incognito.user.js
+│   ├── grok/
+│   │   └── auto-incognito.user.js
 │   └── gemini/
 │       └── auto-incognito.user.js (coming soon)
 ├── docs/
