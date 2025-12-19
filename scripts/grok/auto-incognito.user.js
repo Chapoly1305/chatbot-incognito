@@ -29,7 +29,7 @@
             const button = document.querySelector(selector);
             if (button) {
                 // Check if we're already on the private chat page
-                if (window.location.hash === '#private' || window.location.pathname.includes('/c#private')) {
+                if (window.location.hash === '#private') {
                     console.log('[Grok Private] Private chat already active');
                     return true;
                 }
